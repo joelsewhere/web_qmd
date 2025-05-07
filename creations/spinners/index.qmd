@@ -1,0 +1,63 @@
+---
+title: title-test
+date: '2024-10-12'
+random_variable: 'A random variable'
+
+---
+
+
+# Introduction Spinners
+
+sfvbnels;amcnkhvgj fdvalksHLIJC:OZdnkjgbkvylruvaglhfis;jox k.njbvhkdsughlicj;o
+
+
+What if I **have bolded text**
+
+What if I have `{python} "Inline Code"`
+
+```python
+"What if i have a code block"
+
+variable = 2
+```
+
+## Code block
+
+```{python}
+print(2)
+```
+
+
+```{ojs}
+console.log('Converted to script!!!!')
+
+```
+
+### Viz
+
+```{python}
+import matplotlib.pyplot as plt
+
+plt.plot([1,2,3])
+```
+
+:::{.columns}
+
+::::{.column}
+
+This is in column 1
+
+::::
+
+::::{.column}
+
+This is in column 2
+
+::::
+:::
+
+<h2>An h2 tag</h2>
+
+<script>
+    console.log(5)
+    </script>
