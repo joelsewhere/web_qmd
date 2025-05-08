@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: src
+Version: 1
+Summary: Website Tooling
+Home-page: http://github.com/joelsewhere/web_qmd
+Author: Jo-L Swear
+Author-email: joelsewhere@gmail.com
+License: MIT
+Requires-Dist: sh
+Requires-Dist: pandoc
+Requires-Dist: python-fasthtml
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

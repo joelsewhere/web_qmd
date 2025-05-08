@@ -1,0 +1,17 @@
+include requirements.txt
+include web_qmd/template/*
+include web_qmd/template/config/*
+include web_qmd/template/content/*
+include web_qmd/template/content/scribbles/*
+include web_qmd/template/content/scribbles/static/*
+include web_qmd/template/content/spinners/static/*
+include web_qmd/template/content/spinners/subspinner/*
+include web_qmd/template/content/spinners/subspinner/static/*
+include web_qmd/template/content/stories/*
+include web_qmd/template/content/stories/rock-river/*
+include web_qmd/template/content/stories/super_city/*
+include web_qmd/template/files/*
+include web_qmd/template/src/*
+include web_qmd/template/files/*
+include web_qmd/template/src/src/*
+include web_qmd/template/src/src/html/*

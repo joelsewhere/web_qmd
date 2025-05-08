@@ -1,4 +1,0 @@
-sh
-pandoc
-python-fasthtml
-./tools/pilot/

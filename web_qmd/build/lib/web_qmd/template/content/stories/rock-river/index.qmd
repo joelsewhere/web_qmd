@@ -1,0 +1,28 @@
+```{python}
+
+from fasthtml.common import *
+
+
+Div(
+
+    H3(
+        'I grew up on the banks of a river'
+    ),
+    Div(
+        Form(
+            Label("Choose a river"),
+            Select(
+                Option('Green', value='green'),
+                Option('Mississippi', value='mississippi'),
+                Option('Ohio', value='ohio'),
+                Option('Hennepin', value='Hennepin'),
+                ),
+
+        ),
+        cls="form-div"
+    ),
+    H4("Hi! I'm a test!!!"),
+    cls="river-blog"
+
+)
+```
