@@ -47,7 +47,11 @@ def main():
                 )
 
     if args.command == 'render':
+        import sh
         root = find_root(Path.cwd())
+        
+        sh.pip('install', '-r', (root / 'requirements.txt').as_posix())
+        
         if args.filepath.is_dir():
             qmd_files = args.filepath.rglob('*.qmd')
         else:

@@ -1,5 +1,4 @@
 from . import paths
-from config import paths
 from src.html.navbar import navbar
 
 

@@ -1,6 +1,6 @@
 from web_qmd.app import qmd_app
 from fasthtml.common import Link
-from config.layout import paths, headers, footers
+from src.config.layout import paths, headers, footers
 from web_qmd.utils.layout import load_html
 
 
