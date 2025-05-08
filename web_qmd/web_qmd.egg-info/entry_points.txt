@@ -1,2 +1,0 @@
-[console_scripts]
-web_qmd = web_qmd.cli:main

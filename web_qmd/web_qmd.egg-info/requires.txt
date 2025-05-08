@@ -1,3 +1,0 @@
-sh
-pandoc
-python-fasthtml
