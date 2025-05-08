@@ -3,16 +3,11 @@ title: title-test
 date: '2024-10-12'
 random_variable: 'A random variable'
 html-table-processing: none
-jupyter:
-  kernelspec:
-    display_name: irondata2.4
-    language: python
-    name: irondata2.4
 
 ---
 
 
-<link rel="stylesheet" href="/creations/scribbles/styles.css">
+<link rel="stylesheet" href="/content/scribbles/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 

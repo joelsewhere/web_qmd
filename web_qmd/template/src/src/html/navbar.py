@@ -26,4 +26,4 @@ def navbar(paths):
 
         outer_tag_type = Nav
 
-    return NavBar
+    return NavBar()

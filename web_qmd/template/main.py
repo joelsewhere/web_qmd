@@ -7,7 +7,7 @@ from web_qmd.utils.layout import load_html
 app, rt, serve = qmd_app(
     project_root=paths.root,
     hdrs=(
-        Link(rel='stylesheet', href='/config/global_theme.css', type='text/css'),
+        Link(rel='stylesheet', href=paths.theme.as_posix(), type='text/css'),
         ),
     qmd_directories=paths.content_groups,
     headers=headers,

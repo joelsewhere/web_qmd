@@ -11,8 +11,8 @@ include web_qmd/template/content/stories/*
 include web_qmd/template/content/stories/rock-river/*
 include web_qmd/template/content/stories/super_city/*
 include web_qmd/template/files/*
+include web_qmd/template/files/images/*
 include web_qmd/template/src/*
-include web_qmd/template/files/*
 include web_qmd/template/src/src/*
 include web_qmd/template/src/src/html/*
 include web_qmd/template/src/src/config/*

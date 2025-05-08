@@ -12,6 +12,7 @@ def find_root(path=Path.cwd(), page_group=False):
             return parent
 
 def get_route_base(file):
+    
     cwd = Path(file).resolve().parent
     root = find_root(cwd, page_group=True).parent
     return '/' / cwd.relative_to(root)

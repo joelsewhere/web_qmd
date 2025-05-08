@@ -125,7 +125,7 @@ def render(path, root, logger, init=False, replace=False, ensure_layout=False):
     root = Path(root).resolve()
 
     logger.info(log(f'quarto render {path.as_posix()}'))
-
+    print('\n\n', path.as_posix())
     json = qmd_json(path, extract_media=path.parent/'static')
     json_string = pandoc.write(json, format='json')
     json_string = json_string.replace(root.as_posix(), '')
